@@ -1,0 +1,39 @@
+.intro {
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+    margin: 12vh 18vh;
+}
+
+
+@media (max-width: 1280px) and (min-width: 1024px){
+    .intro{
+            width: 690px;
+            margin: 11vh 18vh;
+        }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .intro{
+            width: 690px;
+            margin: 11vh 6vh;
+        }
+}
+
+
+@media (max-width: 768px) and (min-width: 320px){
+    .intro{
+            width: 720px;
+            margin: 10vh 3vh;
+        }
+}
+
+
+
+@media (max-width: 320px) 
+{
+    .intro{
+        width: 288px;
+        margin: 8vh 2vh;
+    }
+}

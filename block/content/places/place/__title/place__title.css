@@ -1,0 +1,27 @@
+.place__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) and (min-width: 320px){
+    .place__title{
+        font-size: 2.5rem;
+        width: 340px;
+        
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .place__title{
+        font-size: 1.7rem;
+        width: 288px;
+        margin: auto;
+        grid-row-end: 1;
+    }
+    
+} 

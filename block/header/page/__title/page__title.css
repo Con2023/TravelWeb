@@ -1,0 +1,30 @@
+.page__title {
+    font-weight:900;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 1;
+    text-align: center;
+    color: #FFFFFF;
+    width: 720px;
+    margin: 0 auto 2rem;
+}
+
+
+@media (max-width: 1280px) and (min-width: 320px) {
+    .page__title {
+        font-size: 5rem;
+        width: 720px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .page__title {
+        font-size: 2rem;
+        width: 288px;
+        margin: 0 auto 1rem;
+    }
+    
+}
+
+

@@ -1,0 +1,33 @@
+.places {
+    margin: 10vh 3vh 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .places {
+        margin: 11vh 15vh 0;
+    }
+    
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .places {
+        margin: 11vh 6vh 0;
+    }
+    
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+    .places {
+        margin: 10vh 3vh 0;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .places {
+        margin: 64px auto 0;
+    }
+    
+}

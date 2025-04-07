@@ -1,0 +1,23 @@
+.head__language_ru {
+    font-weight: 100;
+    font-size: 1.3rem;
+    color:  #FFF;
+    max-width: 28px;
+    max-height: 30px;
+    text-decoration: none;
+}
+
+@media (max-width: 320px) {
+    .head__language_ru{
+        font-size: 0.9rem;
+        max-width: 20px;
+        max-height: 22px;
+    }
+}
+
+
+.head__language_ru:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+

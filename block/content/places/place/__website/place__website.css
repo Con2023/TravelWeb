@@ -1,0 +1,20 @@
+.place__website{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 1rem;
+    color: #FFFFFF;
+    justify-content: end;
+}
+
+
+@media (max-width: 320px) {
+    .place__website{
+        font-size: 0.7rem;
+        width: 288px;
+        margin: auto;
+        grid-row-end: 2;
+    }
+    
+} 

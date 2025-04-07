@@ -1,0 +1,19 @@
+.page__subtitle {
+    font-weight: 100;
+    font-size: 1.8em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 640px;
+    margin: 0 auto 3rem;
+
+}
+
+@media (max-width: 320px) {
+    .page__subtitle {
+        font-size: 0.8rem;
+        width: 288px;
+        margin: 0 auto 2rem;
+    }
+    
+}
+

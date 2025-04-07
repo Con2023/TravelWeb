@@ -1,0 +1,7 @@
+.place__website_link{
+    color: #FFFFFF;
+    width: fit-content;
+}
+.place__website_link:hover{
+    color: #3d5aff;
+}
