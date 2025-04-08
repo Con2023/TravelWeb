@@ -1,17 +1,16 @@
-.place__paragraph{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 0.8rem;
-    line-height: 1.6;
-    color: #FFFFFF;
+.place__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #ffffff;
 }
 
-@media (max-width: 320px) {
-    .place__paragraph {
-        line-height: 2;
-        width: 288px;
-        margin: auto;
-    }
-    
+@media (max-width: 375px) {
+  .place__paragraph {
+    line-height: 2;
+    width: 288px;
+    margin: auto;
+  }
 }

@@ -1,16 +1,16 @@
 .footer__text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 100;
-    color: #FFFFFF;
-    font-size: 0.6rem;
-    text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  color: #ffffff;
+  font-size: 0.6rem;
+  text-decoration: none;
 }
 
-@media (max-width: 320px) {
-    .footer__text {
-        font-size: 0.6rem;
-        line-height: 5;
-        width: 186px;
-    }
+@media (max-width: 375px) {
+  .footer__text {
+    font-size: 0.6rem;
+    line-height: 5;
+    width: 186px;
+  }
 }

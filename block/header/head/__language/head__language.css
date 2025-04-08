@@ -1,20 +1,19 @@
 .head__language {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 77px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 77px;
 }
 
-@media (min-width: 320px) and (max-width: 1280) {
-    .head__language{
-        max-width: 77px;
-    }
+@media (min-width: 375px) and (max-width: 1280) {
+  .head__language {
+    max-width: 77px;
+  }
 }
 
-@media (max-width: 320px) {
-    .head__language{
-        max-width: 62px;
-    }
+@media (max-width: 375px) {
+  .head__language {
+    max-width: 62px;
+  }
 }
-

@@ -1,18 +1,15 @@
-.page__caption{
-    padding-top: 0.2vh;
-    font-weight: 100;
-    font-size: 0.6rem;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
+.page__caption {
+  padding-top: 0.2vh;
+  font-weight: 100;
+  font-size: 0.6rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-
-@media (max-width: 320px) {
-    .page__caption{
-        font-size: 0.4rem;
-        width: 158px;
-    }
-    
+@media (max-width: 375px) {
+  .page__caption {
+    font-size: 0.4rem;
+    width: 158px;
+  }
 }
