@@ -20,16 +20,16 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 375px) {
+@media (max-width: 768px) and (min-width: 420px) {
   .header {
     max-width: 768px;
     background-color: #2a2a2a;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .header {
-    max-width: 375px;
+    max-width: 420px;
     background-color: #2a2a2a;
   }
 }

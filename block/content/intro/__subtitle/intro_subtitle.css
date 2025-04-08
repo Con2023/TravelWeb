@@ -8,13 +8,13 @@
   margin-bottom: 33px;
 }
 
-@media (max-width: 1280px) and (min-width: 375px) {
+@media (max-width: 1280px) and (min-width: 420px) {
   .intro__subtitle {
     font-size: 0.8rem;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .intro__subtitle {
     width: 288px;
   }

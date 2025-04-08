@@ -21,7 +21,7 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 375px) {
+@media (max-width: 768px) and (min-width: 420px) {
   .place {
     grid-template-columns: 340px 352px;
     grid-template-rows: auto auto;
@@ -31,9 +31,9 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .place {
-    grid-template-columns: 375px;
+    grid-template-columns: 420px;
     grid-template-rows: auto;
     gap: 32px;
     margin-bottom: 6vh;

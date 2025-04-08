@@ -7,7 +7,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .place__paragraph {
     line-height: 2;
     width: 288px;

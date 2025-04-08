@@ -6,13 +6,13 @@
   width: 77px;
 }
 
-@media (min-width: 375px) and (max-width: 1280) {
+@media (min-width: 420px) and (max-width: 1280) {
   .head__language {
     max-width: 77px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .head__language {
     max-width: 62px;
   }

@@ -8,7 +8,7 @@
   justify-content: end;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .place__website {
     font-size: 0.7rem;
     width: 288px;

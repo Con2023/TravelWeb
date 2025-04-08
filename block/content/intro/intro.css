@@ -19,14 +19,14 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 375px) {
+@media (max-width: 768px) and (min-width: 420px) {
   .intro {
     width: 720px;
     margin: 10vh 3vh;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .intro {
     width: 288px;
     margin: 8vh 2vh;

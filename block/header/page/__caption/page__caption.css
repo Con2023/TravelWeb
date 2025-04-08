@@ -7,7 +7,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .page__caption {
     font-size: 0.4rem;
     width: 158px;
